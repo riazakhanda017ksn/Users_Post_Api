@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  background: #fdfdfd;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+navbar {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #dddddd94;
+}
+
+.logo img {
+  height: 80px;
+}
+
+.navbar-option ul {
+  list-style: none;
+  padding: 10px;
+}
+.navbar-option ul li {
+  display: inline-block;
+  padding-left: 20px;
+}
+.navbar-option ul li a {
+  text-decoration: none;
+  font-weight: 500;
+  color: black;
+}
+
+.home h1 {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 27px;
+  margin-bottom: 0;
+}
+.home p {
+  width: 58%;
+  line-height: 1.9rem;
+  margin: 0 auto;
+  padding-top: 10px;
+  color: #737272;
+  text-align: center;
+}
+.footer {
+  border-top: 1px solid #dddddd94;
+  margin-top: 20px;
+}
+
+.footer p {
+  text-align: center;
+  padding: 6px;
+  font-size: 15px;
+  color: #767676;
+}
+
+/* not found */
+.error-page {
+  background: url(../public/CodePen-404-Page.gif) no-repeat top center;
+  background-size: cover;
+  padding-bottom: 580px;
+}
+
+.go-back-your-home {
+  text-align: center;
+  background: #fefefe;
+  padding: 2px;
+}
+
+.go-back-your-home a {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  background: #409440;
+  padding: 12px 24px;
+  color: #fafafa;
+  border-radius: 5px;
+}
+
+.postBoxStyle {
+  border: 1px solid #ddd;
+  margin: 14px 5px;
+  padding: 26px 18px;
+  border-radius: 5px;
+  padding-bottom: 43px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.postBoxStyle:hover {
+  border: 1px solid rgb(13, 110, 255);
+}
+
+.main-div {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.postBoxStyle h4 {
+  margin: 10px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.need-customize {
+  margin: 40px 10px;
+}
+
+.need-customize h1 {
+  text-align: center;
+}
+
+.details-box {
+  border: 1px solid #ddd;
+  padding: 37px;
+  margin-top: 52px;
+  border-radius: 5px;
+  margin-bottom: 6px;
+}
+span {
+  color: #404040;
+  padding: 4px 0;
+  line-height: 2rem;
+}
+
+.pagination li {
+  list-style: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.pagination li a {
+  display: inline-block;
+  margin: 0 11px;
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+  border: 1px solid #ddd;
+  text-align: center;
+  border-radius: 50%;
+  color: #767676;
+  transition: .3s ease-in-out;
+}
+.pagination li a:hover {
+ background:#767676 ;
+ color: #fafafa;
+}
+.pagination li a:focus {
+ background:#767676 ;
+ color: #fafafa;
+}
