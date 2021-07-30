@@ -26,7 +26,7 @@ export default function Home({ userPosts }) {
   //post per page
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
   //name
-  const name = userPosts;
+  const UserPosts = userPosts;
 
   return (
     <>
@@ -55,7 +55,7 @@ export default function Home({ userPosts }) {
         </div>
         <Pagination
           postPerPage={postPerPage}
-          totalPosts={name.length}
+          totalPosts={UserPosts.length}
           paginate={paginate}
         ></Pagination>
       </div>
