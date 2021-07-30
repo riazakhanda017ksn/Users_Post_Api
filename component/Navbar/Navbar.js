@@ -21,11 +21,6 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link href="/post">
-              <a>Post</a>
-            </Link>
-          </li>
-          <li>
             <Link href="page-not-found">
               <a>Others</a>
             </Link>
